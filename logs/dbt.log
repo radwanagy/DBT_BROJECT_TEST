@@ -1,0 +1,29 @@
+[0m21:11:34.739304 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000158293048F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001582B0E7680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015828C39D00>]}
+
+
+============================== 21:11:34.749816 | 16ec2562-fb9d-4114-94c5-e8535a82fc19 ==============================
+[0m21:11:34.749816 [info ] [MainThread]: Running with dbt=1.9.4
+[0m21:11:34.750814 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\radwa\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init my_dbt_project', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:11:34.798877 [debug] [MainThread]: Starter project path: D:\study\projects\dbt_postgress_project\dbt-env\Lib\site-packages\dbt\include\starter_project
+[0m21:11:34.839618 [info ] [MainThread]: 
+Your new dbt project "my_dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:11:34.841614 [info ] [MainThread]: Setting up your profile.
+[0m21:14:49.495359 [info ] [MainThread]: Profile my_dbt_project written to C:\Users\radwa\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:14:49.499356 [debug] [MainThread]: Command `dbt init` succeeded at 21:14:49.498359 after 195.25 seconds
+[0m21:14:49.501351 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001582AC5B4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001582AF5BDA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001582B67AA80>]}
+[0m21:14:49.502346 [debug] [MainThread]: Flushing usage events
+[0m21:14:50.285930 [debug] [MainThread]: An error was encountered while trying to flush usage events
